@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
 
   "name": "Google Scholar Tools",
   "description": "This extension provides some additional bookmarking and sorting of google scholar results.",
@@ -10,9 +10,7 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "storage"
-  ],
-  "host_permissions": [
+    "storage",
 	"*://scholar.google.com/*"
   ],
   "content_scripts": [
