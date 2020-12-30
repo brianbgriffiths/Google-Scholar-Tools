@@ -1,0 +1,26 @@
+.item_img, .item-trash {
+	height:12px;
+	width:12px;
+	display:inline-block;
+	fill:#1a0dab;
+	vertical-align: top;
+	margin: -7px 6px -6px -6px;
+    padding: 8px;
+    border-radius: 50%;
+	cursor:pointer;
+}
+.item_img:hover, .item-trash:hover {
+	background-color: rgba(0,0,0,.05);
+}
+
+.item-saved, .item-trashed {
+	fill:#ff0000;
+}
+#gst_info {
+	border:solid 1px #00882C;
+	background-color:#C9ECD4;
+	color:#00882C;
+	text-align:center;
+	padding:5px;
+	font-size:16px;
+}
